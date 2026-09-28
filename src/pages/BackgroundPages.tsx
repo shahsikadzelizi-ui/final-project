@@ -1,8 +1,8 @@
 export default function BackgroundPages() {
     return (
-        <main className="background-pages">
+        <main w-full h-screen>
             <img 
-            className="background-image"
+            className="w-full h-full"
             src="Background Image.png" alt="" />
             </main>
             )

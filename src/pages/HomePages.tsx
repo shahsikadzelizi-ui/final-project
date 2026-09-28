@@ -2,13 +2,13 @@ import { BiCaretRightCircle } from "react-icons/bi";
 import { FaShoppingBag } from "react-icons/fa";
 import { IoStarSharp } from "react-icons/io5";
 import { MdStarHalf } from "react-icons/md";
+import BackgroundPages from "./BackgroundPages";
  
 export default function HomePages() {
   return (
-    <main className="bg-[#0e1f14] text-[#f4f7f2] px-6 md:px-12 py-8 pb-20 overflow-hidden font-sans">
-      {/* HERO */}
+    <main className="bg-[#0e1f14] text-[#f4f7f2] overflow-hidden font-sans">
+      <BackgroundPages/>
       <section className="relative min-h-[560px] rounded-[28px] p-6 md:p-10 flex flex-col bg-[radial-gradient(120%_100%_at_50%_0%,_#1b3323_0%,_#0e1f14_70%)]">
-        {/* Background plant image */}
         <div className="absolute inset-0 flex items-center justify-center z-0">
           <img
             src="Plant image (1).png"
@@ -17,7 +17,6 @@ export default function HomePages() {
           />
         </div>
  
-        {/* Hero copy */}
         <div className="relative z-10 max-w-xs">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-3">
             Breath Natural
@@ -37,7 +36,6 @@ export default function HomePages() {
           </div>
         </div>
  
-        {/* Featured product card, top right */}
         <div className="absolute top-20 right-6 md:right-10 w-[200px] z-20 rounded-[20px] border border-white/10 bg-white/5 backdrop-blur-md p-4">
           <img
             src="image2.png"
@@ -53,7 +51,6 @@ export default function HomePages() {
           </button>
         </div>
  
-        {/* Review card, bottom left */}
         <div className="absolute bottom-10 left-6 md:left-10 w-[220px] z-20 rounded-[20px] border border-white/10 bg-white/5 backdrop-blur-md p-4">
           <div className="flex items-center gap-2.5 mb-2">
             <div className="w-8 h-8 rounded-full bg-[#3a5a44] shrink-0" />
@@ -75,7 +72,6 @@ export default function HomePages() {
         </div>
       </section>
  
-      {/* PRODUCT 1 */}
       <section className="relative flex items-center gap-8 mt-6 min-h-[220px] rounded-[28px] bg-[#16281c] overflow-hidden p-8 md:p-10">
         <img
           src="image 3.png"
