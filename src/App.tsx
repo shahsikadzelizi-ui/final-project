@@ -7,7 +7,7 @@ export function App() {
     return (
         <section>
             
-            <Navbar />
+            {/* <Navbar /> */}
             <Outlet />
             <Footer/>
 
